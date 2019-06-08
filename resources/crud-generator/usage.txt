@@ -1,0 +1,17 @@
+https://github.com/appzcoder/crud-generator/tree/master/doc
+
+php artisan crud:generate Posts --fields='title#string; content#text;
+category#select#options={"technology": "Technology", "tips": "Tips", "health": "Health"}'
+--view-path=admin --controller-namespace=Admin --route-group=admin --form-helper=html
+
+
+prueba
+php artisan crud:generate Venta --fields='id#integer; factura#string; serie#string;
+cliente#string; nit#string; producto#string;
+--view-path=admin --controller-namespace=Admin --route-group=admin --form-helper=html
+
+resources/crud-generator/fields.json
+
+
+
+php artisan crud:generate Compra --fields_from_file="resources/crud-generator/fields.json" --view-path=compra --controller-namespace=Compra --form-helper=html

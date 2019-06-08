@@ -1,0 +1,23 @@
+{
+    "fields": [
+        {
+            "name": "producto",
+            "type": "string"
+        },
+        {
+            "name": "generico",
+            "type": "string"
+        },
+        {
+            "name": "cantidad",
+            "type": "integer"
+        }
+    ],
+
+    "validations": [
+        {
+            "field": "producto",
+            "rules": "required|max:50"
+        }
+    ]
+}
