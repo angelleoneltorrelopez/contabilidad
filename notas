@@ -1,0 +1,10 @@
+Comandos utilizados
+
+Crear proyecto
+composer create-project --prefer-dist laravel/laravel contabilidad
+
+Asignar nombre (opcional)
+sudo php artisan app:name contabilidad
+
+Iniciar servidor
+sudo php artisan serve
